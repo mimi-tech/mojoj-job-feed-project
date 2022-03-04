@@ -4,7 +4,10 @@ v14.18.1
 v6.14.8
 Javascript framework used:
 
-
+# Do you have any other comments regarding your deliverable?
+No
+# Do you have any comments/feedback about the task we gave you?
+ I am ok with the task. Thank you.
 
 # How you can run this code
 
