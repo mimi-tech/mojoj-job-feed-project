@@ -1,0 +1,29 @@
+@import "./variables.scss";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+  }
+
+body{
+    background: $bg;
+    font-family: $Oxanium;
+    min-height: 100vh;
+  //display: flex;
+  font-weight: 400;
+
+  
+}
+
+  
+  h1 ,h2,h3,h4,h5,h6,label,span{
+    font-weight: 400;
+    font-family: $Oxanium;
+  }
+  code {
+    font-family: $Oxanium;
+  }
+  
+  

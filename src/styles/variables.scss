@@ -1,0 +1,39 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico:wght@400;500;600;700&display=swap');
+
+$Oxanium: 'Oxanium', cursive;
+$pacifico: 'Pacifico', cursive;
+
+
+//colors
+$bg: #f6f8f8 !important;
+$errorColor: #ff502f;
+$dark: rgb(29, 29, 29);
+$light: #ffffff;
+$textColor: #2d3732;
+$primary: #F5730B;
+$textFontSize: 16px;
+
+
+
+// header height
+$headerHeight: 100px;
+
+
+
+
+//margins
+$left: 10px;
+
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        // 768px
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}

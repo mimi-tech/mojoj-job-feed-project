@@ -1,0 +1,148 @@
+@import "./variables.scss";
+
+
+
+.container{
+   
+    
+    .p-container{
+       
+       margin-left: 70%;
+       position:absolute;
+       z-index:1;
+      
+      
+    }
+
+    
+     
+    
+}
+.filter-container{
+  color:$textColor;
+  padding:10px;
+  text-decoration: none;
+  
+
+}
+.f-container{
+  background:$light;
+  color: $textColor;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  list-style: none;
+  margin-top:20px;
+  text-decoration: none;
+  font-size: $textFontSize;
+  width: 300px;
+  margin-left:25px;
+  height: 40%;
+  overflow-y: auto;
+ 
+  float:left;
+  position:absolute;
+  
+  z-index:1;
+  
+ cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    
+  
+}
+.menu-container{
+    margin-top:150px;
+    margin-left: 10%;
+    margin-right:10%;
+ 
+    z-index:1;
+    background: transparent;
+    
+
+    .header-style span{
+      
+      color:$dark;
+      font-size:$textFontSize;
+      text-transform: uppercase;
+      font-weight:bold;
+      justify-content:center;
+      
+
+  }
+
+  .dropdown-list-style{
+    padding: 15px;
+    background: $light;
+    color: $textColor;
+    font-size: $textFontSize;
+    font-weight:normal;
+    border-radius: 10px;
+    
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    
+   }
+
+
+    
+}
+
+.home-container{
+    margin-left: 10%;
+    margin-right:10%;
+    width: 80%;
+  
+   
+   
+
+   
+}
+
+//Styles for users featurd info
+
+.featured {
+    margin-left: $left;
+    width: 100%;
+    margin-top: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .featuredItem {
+  
+    
+    padding:20px;
+    width:100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .featuredTitle{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-size:20px;
+    color: $textColor;
+  }
+  
+  
+    .sub-title{
+      font-size:$textFontSize;
+      color: rgb(90, 86, 86);
+      font-weight: normal;
+      text-align: left;
+
+      i{
+        font-size:6px;
+    
+        margin-left:8px;
+      }
+    }
+  
+  
+  
