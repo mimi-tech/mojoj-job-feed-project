@@ -3,6 +3,7 @@ v14.18.1
 # I have used npm version:
 v6.14.8
 Javascript framework used:
+React Js
 
 # Do you have any other comments regarding your deliverable?
 No
